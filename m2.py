@@ -12,7 +12,7 @@ timeout = 0 # WiFi Connection Timeout variable
 wifi = network.WLAN(network.AP_IF)
 wifi.active(True)
 
-wifi.config(essid = 'ZISUN',password = '12345678KTSC',authmode = network.AUTH_WPA_WPA2_PSK)
+wifi.config(essid = 'RAFI',password = '12345678KTSC',authmode = network.AUTH_WPA_WPA2_PSK)
 print(wifi.ifconfig())
 
 '''if not wifi.isconnected():
