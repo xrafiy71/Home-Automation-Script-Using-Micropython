@@ -30,7 +30,7 @@ if(wifi.isconnected()):
 
 html='''<!DOCTYPE html>
 <html>
-<center><h2>ESP32 Webserver </h2></center>
+<center><h2>ESP32 Home Automation Script Webserver </h2></center>
 <form>
 <center>
 <h3> LED1 </h3>
