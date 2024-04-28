@@ -12,7 +12,7 @@ wifi = network.WLAN(network.AP_IF)
 
 # Restarting WiFi
 
-wifi.config(essid = 'SMART_AQURIUM 2.0',password = '12345678KTSC',authmode = network.AUTH_WPA_WPA2_PSK)
+wifi.config(essid = 'SMART',password = '@1971#bd.gov.rafi',authmode = network.AUTH_WPA_WPA2_PSK)
 print(wifi.ifconfig())
 
     
@@ -26,7 +26,7 @@ html='''<!DOCTYPE html>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Smart Aqurium Webserver 01 </title>
+  <title>Smart Webserver</title>
 
 
 <style>
@@ -93,19 +93,19 @@ body{
 <body>
 
 
-<center><h1 class="b2" > Smart Aqurium Webserver 2.0 </h1></center>
+<center><h1 class="b2" > Smart Webserver </h1></center>
 <form>
 <center>
-<h3> FILTR </h3>
+<h3> F </h3>
 <button class="l2" name="button1" value='ON' type='submit'>  ON </button>
 <button class="l2" name="button1" value='OFF' type='submit'> OFF </button>
-<h3>AERATOR_OXYGEN</h3>
+<h3>AERATOR</h3>
 <button class="l2" name="button2" value='ON' type='submit'>  ON </button>
 <button class="l2" name="button2"  value='OFF' type='submit'> OFF </button>
-<h3> FEED_SUPLIER </h3>
+<h3> SUPLIER </h3>
 <button class="l3" name="button3" value='ON' type='submit'>  Feed_Suplier </button>
 <!-- <button class="l2" name="button3" value='OFF' type='submit'> OFF </button> -->
-<h3> WATER_PUMP </h3>
+<h3> PUMP </h3>
 <button class="l2" name="button4" value='ON' type='submit'>  ON </button>
 <button class="l2" name="button4" value='OFF' type='submit'> OFF </button>
 
