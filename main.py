@@ -13,7 +13,7 @@ wifi.active(False)
 time.sleep(0.5)
 wifi.active(True)
 
-wifi.connect('SmS_jiofi','sms123458956')
+wifi.connect('Rafi','XrAfI123458956')
 
 if not wifi.isconnected():
     print('connecting..')
